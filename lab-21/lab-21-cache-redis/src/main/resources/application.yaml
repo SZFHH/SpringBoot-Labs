@@ -1,7 +1,7 @@
 spring:
   # datasource 数据源配置内容
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/lab-21-cache-demo?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://127.0.0.1:3306/haiku?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password:

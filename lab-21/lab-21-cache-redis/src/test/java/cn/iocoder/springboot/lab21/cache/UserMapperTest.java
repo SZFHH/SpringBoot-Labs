@@ -17,7 +17,7 @@ import java.util.UUID;
 @SpringBootTest(classes = Application.class)
 public class UserMapperTest {
 
-    private static final String CACHE_NAME_USER = "users";
+    private static final String CACHE_NAME_USER = "MyCache1";
 
     @Autowired
     private UserMapper userMapper;

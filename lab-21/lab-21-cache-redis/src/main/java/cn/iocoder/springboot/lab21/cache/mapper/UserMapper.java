@@ -9,7 +9,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Repository;
 
 @Repository
-@CacheConfig(cacheNames = "users")
+@CacheConfig(cacheNames = "MyCache1")
 public interface UserMapper extends BaseMapper<UserDO> {
 
     @Cacheable(key = "#id")
